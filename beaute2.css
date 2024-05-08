@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+body{
+    text-align: center;
+    font-size: 90px;
+    color: rgb(248, 102, 49);
+    background-image: url("FONT.jpg");
+    background-position:10px;
+    padding: 20px;
+    background-size: cover;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+ul{
+    display: flex;
+    margin-left: 80%;
+}
+ul li{
+    text-align: left;
+    margin: 15px;
+    list-style: none;
+    margin-bottom: 5%;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(242, 231, 231);
+    text-align: center;
+}
+h1{
+    margin-top: 50px;
+}
+.serie1, .serie2,.serie3,.serie4.serie5,.serie6,.serie7{
+    display: flex;
+}
+img{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.serie7 img{
+    margin: 50px;
+}
+.serie4 .image1 img,.serie4 .image2 img,.serie5 .image1 img,.serie5 .image2 img{
+    width: 600px;
+}
+table{
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    margin-left: 30%;
+    height: 600px;
+    width: 600px;
+    text-align: left;
+}
+caption{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.serie1{
+    display: flex;
+    justify-content: space-around;
+}
+.serie2{
+display: flex;
+justify-content: space-around;
+}
+.serie3{
+    display: flex;
+justify-content: space-around;
+}
+.serie4{
+    display: flex;
+justify-content: space-around;
+}
+.serie5{
+    display: flex;
+    justify-content: space-around;
+}
+.serie6{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    font-size: 20px;
+}
+img:hover{
+    transition: 0.3s ;
+    height: 410px;
+    width: 410px;
+}
+button{
+    padding: 8px 18px 8px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(8, 206, 8);
+    border-radius: 5px;
+    margin: 10px;
+}

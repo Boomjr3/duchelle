@@ -1,0 +1,22 @@
+body{
+    background-image: url("perruque-lace-front-perruques-synthetiques-cheveux.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+a{
+    padding: 8px 18px 8px 18px;
+    background-color: rgb(8, 206, 8);
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+input{
+    height: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+}
